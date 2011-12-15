@@ -28,9 +28,9 @@ Options : {
 ``` js
 window.onload = function() {
 	IframeResize.load({
-		src : 'http://mysite.com/child.html',
-		element : 'embed',
-		domain : 'mysite.com'
+		src : 'http://dev.scv.mx/iframe/child.html',
+		domain : 'scv.mx',
+		element : 'embed'
 	});
 }
 
