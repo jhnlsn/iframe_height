@@ -16,13 +16,13 @@ Config options defined below.
 In the child page, make a call to messageParent() from your document ready function or window onload function.  The the messageParent function tries to use the document.scrollHeight to get the height of the document, but this is not always going to be the case for everyone.  You might just want to get the height of a given element or body using jquery or other selector.
 
 ## Config Options
-
+``` js
 Options : {
-	src // The source url that the iframe is going to load
-	element // The id of the element that the iframe will be rendered into
-	domain // Used for security purposes to validate where the message is coming from.  When you have some control of the parent and child you will want to set this. See demo.
+	src : '' // The source url that the iframe is going to load
+	element : '' // The id of the element that the iframe will be rendered into
+	domain : '' // Used for security purposes to validate where the message is coming from.  When you have some control of the parent and child you will want to set this. See demo.
 }
-
+```
 ## Example
 
 ``` js
