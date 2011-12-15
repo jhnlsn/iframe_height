@@ -25,6 +25,7 @@ Options : {
 
 ## Example
 
+``` js
 window.onload = function() {
 	IframeResize.load({
 		src : 'http://mysite.com/child.html',
@@ -32,6 +33,8 @@ window.onload = function() {
 		domain : 'mysite.com'
 	});
 }
+
+```
 
 ## License
 IframeResize is &copy; 2011 [John Nelson](http://dailyrelevance.com) and is licensed under the terms of GPL &amp; MIT licenses.
