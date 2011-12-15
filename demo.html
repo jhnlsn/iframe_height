@@ -1,0 +1,18 @@
+<html>
+
+<head>
+	<script type="text/javascript" src="parent.js"></script>
+	<script type="text/javascript">
+	window.onload = function() {
+		IframeResize.load({
+			src : 'http://dev.scv.mx/iframe/child.html',
+			domain : 'scv.mx',
+			element : 'embed'
+		})
+	}
+	</script>
+</head>
+<body>
+	<div id="embed"></div>
+</body>
+</html>
