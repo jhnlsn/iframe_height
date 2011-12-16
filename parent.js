@@ -26,14 +26,16 @@
 		if(matches.length = 1){
 			strD = e.data + "";
 			r = strD.match(/^(\d+)(s?)$/);
-			height = parseInt(r[1]);
-			if (!isNaN(height)) {
-				try {
-					setHeight(height);
-				} catch (ex) {}
-			}
-			if(r[2] == "s"){
-				scroll(0,0);
+			if(r && r.length = 3){
+				height = parseInt(r[1]);
+				if (!isNaN(height)) {
+					try {
+						setHeight(height);
+					} catch (ex) {}
+				}
+				if(r[2] == "s"){
+					scroll(0,0);
+				}
 			}
 		}
 	},
