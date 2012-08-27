@@ -26,7 +26,7 @@
 		if(matches.length = 1){
 			strD = e.data + "";
 			r = strD.match(/^(\d+)(s?)$/);
-			if(r && r.length = 3){
+			if(r && r.length == 3){
 				height = parseInt(r[1]);
 				if (!isNaN(height)) {
 					try {
