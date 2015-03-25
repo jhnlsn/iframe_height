@@ -1,9 +1,6 @@
 # Iframe Height
 Iframe height is a simple tool to allow cross domain messaging, specifically iframe height resizing for responsive designs.
 
-## Demo
-### Visit here and try resizing the screen size.  The inner iframe height should resize accordingly [zerg.ws](http://zerg.ws/iframe/demo.html)
-
 ## Usage
 Add the parent.js file to your containing page and the child.js to the contained page.
 
